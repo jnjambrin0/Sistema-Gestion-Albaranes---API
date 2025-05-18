@@ -233,8 +233,8 @@ Esta guía describe el flujo completo para utilizar la aplicación, desde la con
      "name": "Nombre del Proyecto",
      "clientId": "ID_del_Cliente_existente", // Cliente debe pertenecer al mismo propietario (User/Company)
      "description": "Descripción del proyecto", // Opcional
-     "startDate": "2023-01-01", // Opcional, formato ISO8601
-     "endDate": "2023-12-31", // Opcional, formato ISO8601
+     "startDate": "2023-01-01", // Opcional
+     "endDate": "2023-12-31", // Opcional
      "usuariosAsignados": ["ID_usuario_1", "ID_usuario_2"] // Opcional. Si el proyecto es de empresa, solo usuarios de esa empresa.
    }
    ```
@@ -356,7 +356,3 @@ El sistema utiliza Mailgun (si está configurado en `.env`) para enviar correos 
 - **Invitación a Empresa:** Cuando un administrador invita a un usuario a unirse a su empresa.
 
 *(Nota: La funcionalidad de enviar manualmente un albarán por email (`POST /api/deliverynote/{deliveryNoteId}/send`) mencionada en versiones anteriores no parece estar implementada en las rutas actuales proporcionadas.)*
-
----
-
-Con esta guía has completado el flujo completo de la aplicación, desde el registro hasta el envío de albaranes por correo electrónico con PDFs almacenados en Firebase. 

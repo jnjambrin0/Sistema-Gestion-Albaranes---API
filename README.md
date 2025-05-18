@@ -16,8 +16,8 @@ Esta es la API REST para un sistema de gestión de albaranes, clientes, proyecto
 
 1.  **Clonar el Repositorio:** (Si aplica)
     ```bash
-    git clone <url-del-repositorio>
-    cd <directorio-del-proyecto>
+    git clone [<Sistema-Gestion-Albaranes - API>](https://github.com/jnjambrin0/Sistema-Gestion-Albaranes---API)
+    cd <Sistema-Gestion-Albaranes---API>
     ```
 2.  **Variables de Entorno:**
     Crear un archivo `.env` en la raíz del proyecto copiando el contenido de `.env.example` y rellenando los valores correspondientes:
